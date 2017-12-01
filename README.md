@@ -1,20 +1,20 @@
-#Register admin
-	##admin has:
+# Register admin
+	## admin has:
 		name, email, password
-	##admin can:
+	## admin can:
 		add admin, update admin, create group, erase group, remove users
-#Group
-	##group has :
+# Group
+	## group has :
 		name, admin, players
-	##group can:
+	## group can:
 		rename group, add players, remove players, display players
-#Players
-	##player has:
+# Players
+	## player has:
 		name, email, group, skills, team
-	##player can:
+	## player can:
 		read group
-#User
-	##user has:
+# User
+	## user has:
 		name, email, password
-	##user can:
+	## user can:
 		qualify players, change name, change password
