@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/felipe503/teammaker/issues"
   },
-  "homepage": "https://github.com/felipe503/teammaker#readme"
+  "homepage": "https://github.com/felipe503/teammaker#readme",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  }
 }
